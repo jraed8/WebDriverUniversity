@@ -13,7 +13,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		monochrome = true,
 		dryRun = false,
 		tags = {},
-		plugin = {"pretty", "html:target/Report001", "json:target/cucumber.json", 
+		plugin = {"pretty", "html:target/Report002", "json:target/cucumber.json", 
 				"com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
 	)
 
