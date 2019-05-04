@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19446" started-at="2019-05-04T18:35:44Z" finished-at="2019-05-04T18:36:04Z">
+  <suite name="Suite" duration-ms="20074" started-at="2019-05-04T22:14:44Z" finished-at="2019-05-04T22:15:04Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@49993335]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@20322d26]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@5025a98f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@5383967b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="19446" started-at="2019-05-04T18:35:44Z" finished-at="2019-05-04T18:36:04Z">
+    <test name="Test001" duration-ms="9878" started-at="2019-05-04T22:14:44Z" finished-at="2019-05-04T22:14:54Z">
       <class name="Adv1CucumberFramework.Runners.Runner1">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@49993335]" name="setUpClass" is-config="true" duration-ms="332" started-at="2019-05-04T14:35:44Z" finished-at="2019-05-04T14:35:44Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@5025a98f]" name="setUpClass" is-config="true" duration-ms="280" started-at="2019-05-04T18:14:44Z" finished-at="2019-05-04T18:14:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@49993335]" name="feature" duration-ms="9902" started-at="2019-05-04T14:35:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-04T14:35:54Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@5025a98f]" name="feature" duration-ms="9161" started-at="2019-05-04T18:14:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-04T18:14:53Z">
           <params>
             <param index="0">
               <value>
@@ -26,17 +26,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@49993335]" name="tearDownClass" is-config="true" duration-ms="342" started-at="2019-05-04T14:35:54Z" finished-at="2019-05-04T14:35:55Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner1@5025a98f]" name="tearDownClass" is-config="true" duration-ms="350" started-at="2019-05-04T18:14:53Z" finished-at="2019-05-04T18:14:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Adv1CucumberFramework.Runners.Runner1 -->
+    </test> <!-- Test001 -->
+    <test name="Test002" duration-ms="10181" started-at="2019-05-04T22:14:54Z" finished-at="2019-05-04T22:15:04Z">
       <class name="Adv1CucumberFramework.Runners.Runner2">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@20322d26]" name="setUpClass" is-config="true" duration-ms="17" started-at="2019-05-04T14:35:55Z" finished-at="2019-05-04T14:35:55Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@5383967b]" name="setUpClass" is-config="true" duration-ms="18" started-at="2019-05-04T18:14:54Z" finished-at="2019-05-04T18:14:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@20322d26]" name="feature" duration-ms="8691" started-at="2019-05-04T14:35:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-04T14:36:04Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@5383967b]" name="feature" duration-ms="10064" started-at="2019-05-04T18:14:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-04T18:15:04Z">
           <params>
             <param index="0">
               <value>
@@ -44,14 +46,59 @@
               </value>
             </param>
           </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: expected [NEWCUSTOMER1] but found [NEWCUSTOMER]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [NEWCUSTOMER1] but found [NEWCUSTOMER]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.AssertionError: expected [NEWCUSTOMER1] but found [NEWCUSTOMER]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Resources.pageObjects.Products_Page.printSpecialOffersVoucherCode(Products_Page.java:38)
+	at Adv1CucumberFramework.StepDefinitions.ProductsSteps.user_should_be_presented_with_a_promo_alert(ProductsSteps.java:30)
+	at ✽.Then User should be presented with a promo alert(src/test/java/Adv1CucumberFramework/FeatureFiles/Products.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@20322d26]" name="tearDownClass" is-config="true" duration-ms="58" started-at="2019-05-04T14:36:04Z" finished-at="2019-05-04T14:36:04Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Adv1CucumberFramework.Runners.Runner2@5383967b]" name="tearDownClass" is-config="true" duration-ms="93" started-at="2019-05-04T18:15:04Z" finished-at="2019-05-04T18:15:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Adv1CucumberFramework.Runners.Runner2 -->
-    </test> <!-- Test -->
+    </test> <!-- Test002 -->
   </suite> <!-- Suite -->
 </testng-results>
