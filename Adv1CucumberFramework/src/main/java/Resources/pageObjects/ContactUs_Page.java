@@ -57,7 +57,7 @@ public class ContactUs_Page extends BasePage{
 	
 	public ContactUs_Page confirmContactUsFormSubmissionWasSuccessful() throws Exception {
 		WaitUntilWebElementIsVisible(text_ThanksMsg);
-		assertEquals("thankyouforyourmessage!2", text_ThanksMsg.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
+		assertEquals("thankyouforyourmessage!", text_ThanksMsg.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
 		return new ContactUs_Page();
 	}
 

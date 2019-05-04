@@ -35,7 +35,7 @@ public class Products_Page extends BasePage {
 		assertTrue(WaitUntilWebElementIsVisible(text_couponCode));
 		String voucherCodeValue = text_couponCode.getText().replaceAll("[0-9]", "");
 		System.out.println(voucherCodeValue);
-		assertEquals(voucherCodeValue, "NEWCUSTOMER1");
+		assertEquals(voucherCodeValue, "NEWCUSTOMER");
 		return voucherCodeValue;
 	}
 	

@@ -1,4 +1,4 @@
-Feature: Submit data to webdriveruniversity.com using contact us form
+Feature: Contact Us Form
 
 Scenario: Submit valid data contact us form
 	Given I access webdriveruniversity contact us form
