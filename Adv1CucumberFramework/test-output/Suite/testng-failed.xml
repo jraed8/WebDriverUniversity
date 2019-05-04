@@ -11,6 +11,23 @@
       <class name="Adv1CucumberFramework.Runners.Runner2"/>
     </classes>
   </test> <!-- Test002 -->
+  <test name="Test001(failed)">
+    <classes>
+      <class name="Adv1CucumberFramework.Runners.Runner2">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Adv1CucumberFramework.Runners.Runner2 -->
+      <class name="Adv1CucumberFramework.Runners.Runner1">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Adv1CucumberFramework.Runners.Runner1 -->
+    </classes>
+  </test> <!-- Test001(failed) -->
   <test name="Test002(failed)">
     <classes>
       <class name="Adv1CucumberFramework.Runners.Runner2">

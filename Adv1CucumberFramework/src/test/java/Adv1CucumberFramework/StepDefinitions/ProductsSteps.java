@@ -20,14 +20,14 @@ public class ProductsSteps extends DriverFactory {
 	    productsPage.clickSpecialOffers();
 	}
 
-	@When("^User clicks on Proceed button$")
-	public void user_clicks_on() throws Throwable {
-		productsPage.clickOnProceedButton_Popup();
-	}
-
 	@Then("^User should be presented with a promo alert$")
 	public void user_should_be_presented_with_a_promo_alert() throws Throwable {
 		productsPage.printSpecialOffersVoucherCode();
+	}
+	
+	@When("^User clicks on Proceed button$")
+	public void user_clicks_on() throws Throwable {
+		productsPage.clickOnProceedButton_Popup();
 	}
 
 }

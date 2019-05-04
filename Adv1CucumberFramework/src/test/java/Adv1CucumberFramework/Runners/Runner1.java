@@ -11,8 +11,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features = {"src/test/java/Adv1CucumberFramework/FeatureFiles/ContactUs.feature"},
 		glue = {"Adv1CucumberFramework.StepDefinitions"},
 		monochrome = true,
+		dryRun = false,
 		tags = {},
-		plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", 
+		plugin = {"pretty", "html:target/Report002", "json:target/cucumber.json", 
 				"com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
 	)
 
