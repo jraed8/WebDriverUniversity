@@ -5,10 +5,10 @@
     <classes>
       <class name="Adv1CucumberFramework.Runners.Runner1"/>
     </classes>
-    </test>
-<!--       <test thread-count="5" name="Test002">
+    </test> <!--Test1 -->
+<test thread-count="5" name="Test002">
     <classes>
       <class name="Adv1CucumberFramework.Runners.Runner2"/>
     </classes>
-  </test> --> <!-- Test -->
+  </test>  <!--Test2 -->
 </suite> <!-- Suite -->
