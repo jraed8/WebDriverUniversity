@@ -1,6 +1,7 @@
 package Resources.pageObjects;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 
@@ -29,16 +30,18 @@ public class Products_Page extends BasePage {
 		return new Products_Page();
 	}
 	
+
+	public String printSpecialOffersVoucherCode() throws InterruptedException {
+		assertTrue(WaitUntilWebElementIsVisible(text_couponCode));
+		String voucherCodeValue = text_couponCode.getText().replaceAll("[0-9]", "");
+		System.out.println(voucherCodeValue);
+		assertEquals(voucherCodeValue, "NEWCUSTOMER1");
+		return voucherCodeValue;
+	}
+	
 	public Products_Page clickOnProceedButton_Popup() throws IOException, InterruptedException {
 		waitAndClickElement(button_proceed);
 		return new Products_Page();
-	}
-
-	public String printSpecialOffersVoucherCode() throws InterruptedException {
-		WaitUntilWebElementIsVisible(text_couponCode);
-		String voucherCodeValue = text_couponCode.getText().replaceAll("[0-9]", "");
-		assertEquals(voucherCodeValue, "NEWCUSTOMER");
-		return voucherCodeValue;
 	}
 
 }
