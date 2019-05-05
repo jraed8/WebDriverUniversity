@@ -6,15 +6,9 @@
       <class name="Adv1CucumberFramework.Runners.Runner1"/>
     </classes>
   </test> <!-- Test001 -->
-  <test name="Test001(failed)">
+  <test thread-count="5" name="Test002">
     <classes>
-      <class name="Adv1CucumberFramework.Runners.Runner1">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0 1"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- Adv1CucumberFramework.Runners.Runner1 -->
+      <class name="Adv1CucumberFramework.Runners.Runner2"/>
     </classes>
-  </test> <!-- Test001(failed) -->
+  </test> <!-- Test002 -->
 </suite> <!-- Failed suite [Suite] -->

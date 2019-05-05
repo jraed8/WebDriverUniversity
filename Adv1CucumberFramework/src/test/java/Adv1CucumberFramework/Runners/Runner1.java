@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-		features = {"src/test/java/Adv1CucumberFramework/FeatureFiles/ContactUs.feature"},
+		features = {"src/test/java/Adv1CucumberFramework/FeatureFiles/"},
 		glue = {"Adv1CucumberFramework.StepDefinitions"},
 		monochrome = true,
 		dryRun = false,
